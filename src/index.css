@@ -25,5 +25,24 @@
     }
 }
 
+
+
+  
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  .language-slider-animation {
+    animation: moveLeft 80s linear infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+  
   
   
