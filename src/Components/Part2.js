@@ -27,13 +27,15 @@ const Part2 = () => {
         </span>
       </div>
 
-      <div className=" image-container mb-8">
+      <div className=" image-container mb-8 flex w-[4102px] ">
         {data.map((im, index) => (
+          <div className=" bg-gray-100  w-[180%] h-[60%] flex justify-center items-center">
           <img
             key={index}
             src={im.image}
-            className="w-[8%] h-[8%] inline-block  m-[3%] bg-greyclr"
+            className="w-[100%] h-[80%] inline-block  p-[3%]"
           />
+          </div>
         ))}
       </div>
 
