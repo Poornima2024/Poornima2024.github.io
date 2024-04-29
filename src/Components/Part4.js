@@ -2,29 +2,29 @@ import React from "react";
 
 const Part4 = () => {
   return (
-    <div className="flex flex-col justify-center items-center ">
-      <span className="font-extrabold text-5xl  tracking-wide ">
+    <div className="flex flex-col justify-center items-center sph:w-[100%] ">
+      <span className="font-extrabold lg:text-5xl sph:text-3xl sph:w-[60%] text-center tracking-wide ">
         Say Hello to Smarter Sales
       </span>
 
-      <div className="w-[80%] flex flex-row  justify-center items-center border-1  rounded-xl shadow-2xl pb-8 mt-[2%]">
-        <div className="w-[40%]">
-          <div className="flex flex-col justify-center  gap-3">
-            <h1 className="font-bold text-3xl tracking-wide w-[72%]">
+      <div className="xl:w-[80%] sph:w-[90%] flex lg:flex-row sph:flex-col justify-center items-center border-1  rounded-xl shadow-2xl pb-8 xl:mt-[2%] lg:mt-[5%] sph:mt-[8%]">
+        <div className="xl:w-[40%] lg:w-[46%] sph:w-[90%] ">
+          <div className="flex flex-col justify-center item-center gap-3 xl:pt-[0%] lg:pt-[10%]">
+            <h1 className="font-bold xl:text-3xl tracking-wide xl:w-[72%]   lg:w-[91%] ">
               Conversational Lead Qualification
             </h1>
-            <p className="w-[66%]">
+            <p className="xl:w-[66%] lg:w-[94%] text-center">
               Say goodbye to lead forms, say Hi to conversational lead
               qualification! Our AI sales agents are all about getting to know
               your customers through friendly, natural conversations.
             </p>
-            <p className="w-[66%]">
+            <p className="xl:w-[66%] lg:w-[94%] text-center">
               They're not just talking; they're smartly uncovering key details,
               making every chat a fun and fruitful opportunity to qualify leads.
             </p>
           </div>
         </div>
-        <div className="w-[40%] p-[1%] ">
+        <div className="xl:w-[40%] lg:w-[46%] sph:w-[90%] ">
           <img
             src="	https://orimon.ai/images/home/features-step-1.png"
             className=" bg-greyclr p-[5%]"
@@ -32,24 +32,24 @@ const Part4 = () => {
         </div>
       </div>
 
-      <div className="w-[80%] gap-[6%] flex flex-row  justify-center items-center border-1  rounded-xl shadow-2xl pb-8 mt-[4%] mb-[4%]">
-        <div className="w-[40%] p-[1%] ">
+      <div className="xl:w-[80%] sph:w-[90%] flex lg:flex-row sph:flex-col justify-center items-center border-1  rounded-xl shadow-2xl pb-8 xl:mt-[2%] lg:mt-[5%]  sph:mt-[17%]">
+        <div className="xl:w-[40%] lg:w-[46%] sph:w-[90%] ">
           <img
             src="	https://orimon.ai/images/home/features-step-2.png"
             className=" bg-greyclr p-[5%]"
           ></img>
         </div>
 
-        <div className="w-[40%]">
-          <div className="flex flex-col justify-center  gap-3">
-            <h1 className="font-bold text-3xl tracking-wide w-[72%]">
+        <div className="xl:w-[40%] lg:w-[46%] sph:w-[90%]">
+          <div className="flex flex-col justify-center item-center gap-3 xl:pt-[0%] lg:pt-[10%]">
+            <h1 className="font-bold xl:text-3xl tracking-wide xl:w-[72%]   lg:w-[91%] ">
               Multichannel Integration & CRM Compatibility
             </h1>
-            <p className="w-[66%]">
+            <p className="xl:w-[66%] lg:w-[94%] text-center">
               You should be where your customers are and therefore we offer
               extensive integration capabilities!
             </p>
-            <p className="w-[66%]">
+            <p className="xl:w-[66%] lg:w-[94%] text-center">
               Your AI sales agent will effortlessly integrate with your favorite
               messaging channels and top CRM tools ensuring seamless lead
               management and customer engagement.
@@ -58,13 +58,13 @@ const Part4 = () => {
         </div>
       </div>
 
-      <span className="font-extrabold text-5xl  tracking-wide mt-[5%] mb-[10%]">
+      <span className="font-extrabold lg:text-5xl sph:text-3xl text-center tracking-wide lg:mt-[5%] lg:mb-[10%] sph:mt-[15%] sph:mb-[10%]">
         Everything You’ll Ever Need
       </span>
 
-      <div className="grid grid-cols-4 grid-rows-3 w-[100%] pl-[2%] pr-[2%]">
-        <div className="border-t border-b border-slate-200 flex flex-col pl-[4%]  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+      <div className="grid lg:grid-cols-4 sph:grid-cols-2 sph:grid-rows-2 lg:grid-rows-3 w-[100%] pl-[2%] pr-[2%]">
+        <div className="border-t border-b border-slate-200 flex flex-col pl-[4%]  gap-[4%] pt-[4%] pb-[4%] ">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             {" "}
             AI Observability
           </h1>
@@ -74,7 +74,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className="border-t border-b border-slate-200 flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Automate Customer Support
           </h1>
           <p className="w-[89%]">
@@ -83,7 +83,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className="border-t border-b border-slate-200 flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Faster Purchasing Cycles
           </h1>
           <p className="w-[89%]">
@@ -92,7 +92,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className="border-t border-b border-slate-200 flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             True Personalization
           </h1>
           <p className="w-[89%]">
@@ -102,7 +102,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className=" border-b border-slate-200 flex flex-col pl-[4%] gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Human Support Fallback
           </h1>
           <p className="w-[93%]">
@@ -111,7 +111,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className=" border-b border-slate-200 flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Multiple Data Sources
           </h1>
           <p className="w-[89%]">
@@ -120,7 +120,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className=" border-b border-slate-200 flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Powerful AI Models
           </h1>
           <p className="w-[89%]">
@@ -129,7 +129,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className=" border-b border-slate-200 flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Whitelabel
           </h1>
           <p className="w-[89%]">
@@ -138,7 +138,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className="flex flex-col gap-[4%] pl-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Detailed Analytics
           </h1>
           <p className="w-[93%]">
@@ -147,7 +147,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className="flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Campaign Manager
           </h1>
           <p className="w-[89%]">
@@ -157,7 +157,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className="flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Privacy & Security
           </h1>
           <p className="w-[89%]">
@@ -166,7 +166,7 @@ const Part4 = () => {
           </p>
         </div>
         <div className="flex flex-col  gap-[4%] pt-[4%] pb-[4%]">
-          <h1 className="font-bold text-xl tracking-wide text-slate-700">
+          <h1 className="font-bold xl:text-xl xl:tracking-wide text-slate-700 lg:text-lg lg:tracking-normal">
             Ready to get started?
           </h1>
           <p className="w-[89%]">
@@ -180,8 +180,8 @@ const Part4 = () => {
         Use Case
       </span>
 
-      <div className="grid grid-cols-2 grid-rows-2 w-[100%] pl-[2%] pr-[2%] gap-[1%]">
-        <div className="flex flex-col gap-[3%] pb-[10%] border  border-gray-100 shadow-sm rounded-2xl ">
+      <div className="grid lg:grid-cols-2 lg:grid-rows-2 sph:grid-cols-1 sph:grid-rows-4 w-[100%] pl-[2%] pr-[2%] xl:gap-[1%] lg:gap-[1%] sph:gap-[3%]">
+        <div className="flex flex-col gap-[3%] lg:pb-[10%] sph:pb-[35%] border lg:border-gray-100 sph:border-gray-200 lg:shadow-sm sph:shadow-md rounded-2xl ">
           <div>
             <img
               src="https://orimon.ai/images/home/use-case-1.png"
@@ -202,7 +202,7 @@ const Part4 = () => {
           </h3>
         </div>
 
-        <div className="flex flex-col gap-[3%] border  border-gray-100 shadow-sm rounded-2xl ">
+        <div className="flex flex-col gap-[3%] border  border-gray-100 lg:pb-[10%] sph:pb-[35%]  sph:border-gray-200 lg:shadow-sm sph:shadow-md rounded-2xl ">
           <div>
             <img
               src="https://orimon.ai/images/home/use-case-2.png"
@@ -224,7 +224,7 @@ const Part4 = () => {
           </h3>
         </div>
 
-        <div className="flex flex-col gap-[3%] border  border-gray-100 shadow-sm rounded-2xl ">
+        <div className="flex flex-col gap-[3%] border lg:pb-[10%] sph:pb-[35%]  border-gray-100 sph:border-gray-200 lg:shadow-sm sph:shadow-md rounded-2xl  ">
           <div>
             <img
               src="https://orimon.ai/images/home/use-case-3.png"
@@ -245,7 +245,7 @@ const Part4 = () => {
           </h3>
         </div>
 
-        <div className="flex flex-col gap-[3%] border  border-gray-100 shadow-sm rounded-2xl ">
+        <div className="flex flex-col gap-[3%] border lg:pb-[10%] sph:pb-[35%] border-gray-100 sph:border-gray-200 lg:shadow-sm sph:shadow-md rounded-2xl  ">
           <div>
             <img
               src="https://orimon.ai/images/home/use-case-4.png"
@@ -272,7 +272,7 @@ const Part4 = () => {
         <h1 className="bg-gradient-custom text-transparent bg-clip-text text-lg font-bold tracking-wide">
           Integration
         </h1>
-        <span className="font-extrabold text-5xl tracking-wide w-[50%] text-center">
+        <span className="font-extrabold lg:text-5xl sph:text-3xl tracking-wide lg:w-[50%] sph:w-[80%] text-center">
           Get data from different sources and train the chatbot
         </span>
 
@@ -280,7 +280,7 @@ const Part4 = () => {
           <div className="mt-[7%]   flex justify-center items-center  ">
             <img
               src="https://orimon.ai/images/home/integration-banner-desktop.png"
-              className="pb-[5%] w-[76%]"
+              className="lg:pb-[5%] lg:w-[76%] sph:w-[90%] sph:pb-[2%]"
             ></img>
           </div>
         </div>

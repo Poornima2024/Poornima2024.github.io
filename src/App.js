@@ -8,7 +8,7 @@ import Part4 from './Components/Part4';
 import Part5Footer from './Components/Part5Footer';
 function App() {
   return (
-    <div >
+    <div className='w-full overflow-hidden' >
     <Navbar></Navbar>
     <Part1></Part1>
     <Part2></Part2>

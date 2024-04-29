@@ -19,7 +19,10 @@ module.exports = {
       },
       animation: {
         wiggle: 'wiggle 20s linear infinite',
-      }
+      },
+      screens: {
+        'sph': '320px',
+      },
       
     },
   },

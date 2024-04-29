@@ -4,10 +4,10 @@ const Part5Footer = () => {
   return (
     <div className="mt-[7%] flex flex-col justify-center items-center bg-slate-100 ">
       <div className="flex flex-col justify-center items-center mb-[7%]">
-        <span className="text-5xl font-extrabold tracking-wide">
+        <span className="lg:text-5xl sph:text-3xl sph:w-[50%] font-extrabold tracking-wide">
           What people are saying
         </span>
-        <div className="grid grid-cols-3 grid-rows-2 w-[100%] bg-slate-100 gap-[2%] pl-[2%] pr-[2%] mt-[3%] mb-[7%] gap-y-[8%]">
+        <div className="grid lg:grid-cols-3 lg:grid-rows-2 sph:grid-cols-1 sph:grid-rows-4 w-[100%] bg-slate-100 gap-[2%] pl-[2%] pr-[2%] mt-[3%] mb-[7%] gap-y-[8%]">
           <div className="flex  border-1  rounded-xl shadow-2xl bg-white">
             <div>
               <figcaption className=" flex flex-col justify-center items-center p-[12%]">
@@ -28,7 +28,7 @@ const Part5Footer = () => {
             </div>
           </div>
 
-          <div className="col-span-2 flex  border-1  rounded-xl shadow-2xl bg-white">
+          <div className="lg:col-span-2 flex  border-1  rounded-xl shadow-2xl bg-white">
             <div className="w-[59%]">
               <figcaption className=" flex flex-col justify-center items-center p-[12%]">
                 <img
@@ -54,7 +54,7 @@ const Part5Footer = () => {
             </div>
           </div>
 
-          <div className="col-span-2 flex  border-1  rounded-xl shadow-2xl bg-white">
+          <div className="lg:col-span-2 flex  border-1  rounded-xl shadow-2xl bg-white">
             <div>
               <figcaption className=" flex flex-col justify-center items-center p-[12%]">
                 <img

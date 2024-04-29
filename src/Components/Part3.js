@@ -7,42 +7,43 @@ import language from "../language";
 const Part3 = () => {
   return (
     <div className="mt-[6rem] flex flex-col  items-center justify-center mb-[6rem] ">
-      <div className="w-[80%] flex flex-row  justify-center items-center border-1  rounded shadow-2xl pb-8">
-        <div className="w-[40%]">
+      <div className="lg:w-[80%] flex lg:flex-row sph:flex-col  justify-center items-center border-1  rounded shadow-2xl pb-8 sph:gap-[5%]">
+        <div className="lg:w-[40%] sph:w-[78%] sph:flex sph:flex-col ">
           <span>
-            <GoGitBranch className="text-btncolor h-8 w-8 font-bold text-3xl" />
+            <GoGitBranch className="text-btncolor h-8 w-8 font-bold lg:text-3xl sph:text-2xl" />
           </span>
-          <div className="flex flex-col justify-center  gap-3">
-            <h1 className="font-bold text-3xl tracking-wide w-[42%]">
+          <div className="flex flex-col justify-center sph:w-[100%]  gap-3 ">
+            <h1 className="font-bold text-3xl tracking-wide lg:w-[42%] sph:w-[104%] sph:text-2xl">
               Connect Data Sources
             </h1>
-            <p className="w-[66%]">
+            <p className="lg:w-[66%]  sph:w-[100%] text-center">
               Say goodbye to the long laborious AI model training, and
               effortlessly connect your data sources in a few clicks and you’re
               done!
             </p>
-            <p className="w-[66%]">
+            <p className="w-[66%] sph:w-[100%] text-center">
               Your AI sales agent can be trained on your website, other web
               pages, documents, and much more!
             </p>
           </div>
         </div>
-        <div className="w-[40%] pt-[9%] ">
+        <div className="lg:w-[40%] lg:pt-[9%] sph:pt-[6%] sph:w-[90%] bg-gray-200 ">
           <img
             src="https://orimon.ai/images/home/working-step-1.png"
-            className=""
+            className="sph:w-[90%] "
           ></img>
         </div>
       </div>
+      
 
-      <div className="mt-[10%] flex items-center justify-center ">
-        <h1 className="text-5xl font-black tracking-wide text-center w-[54%]">
+      <div className="mt-[10%] flex items-center justify-center  sph:w-[100%]">
+        <h1 className="lg:text-5xl font-black tracking-wide text-center lg:w-[54%] sph:text-3xl sph:w-[70%]">
           Numbers That Matter The Most
         </h1>
       </div>
 
-      <div className="mt-[10%] flex flex-row gap-5 justify-center items-center  ">
-        <div className="w-[33%]  p-10 bg-indigo-100 border rounded-xl shadow-md gap-4">
+      <div className="mt-[10%] lg:p-[5%] xl:p-[0%] sph:w-[100%] flex lg:flex-row sph:flex-col gap-5 justify-center items-center  ">
+        <div className="lg:w-[33%] sph:w-[80%]  p-10 bg-indigo-100 border rounded-xl shadow-md gap-4">
           <div className="flex flex-row justify-center items-center bg-indigo-200 border rounded-xl p-[2%] gap-5 ">
             <TbBellRinging className="text-indigo-500 h-[20%] w-[20%] font-bold text-3xl p-3 bg-white border rounded-xl" />
 
@@ -57,7 +58,7 @@ const Part3 = () => {
           </div>
         </div>
 
-        <div className="w-[33%]  p-10 bg-violet-100 border rounded-xl shadow-md gap-4">
+        <div className="lg:w-[33%] sph:w-[80%]  p-10 bg-violet-100 border rounded-xl shadow-md gap-4">
           <div className="flex flex-row justify-center items-center bg-violet-200 border rounded-xl p-[2%] gap-5 ">
             <MdOutlineStarOutline className="text-violet-500 h-[20%] w-[20%] font-bold text-3xl p-3 bg-white border rounded-xl" />
 
@@ -72,7 +73,7 @@ const Part3 = () => {
           </div>
         </div>
 
-        <div className="w-[33%]  p-10 bg-sky-100 border rounded-xl shadow-md gap-4">
+        <div className="lg:w-[33%] sph:w-[80%] p-10 bg-sky-100 border rounded-xl shadow-md gap-4">
           <div className="flex flex-row justify-center items-center bg-sky-200 border rounded-xl p-[2%] gap-5 ">
             <BiAlarmSnooze className="text-sky-500 h-[20%] w-[20%] font-bold text-3xl p-3 bg-white border rounded-xl" />
             <div className="flex flex-col">
@@ -92,7 +93,7 @@ const Part3 = () => {
           <h1 className="text-lg font-bold tracking-wide bg-gradient-custom text-transparent bg-clip-text mt-[7%] mb-[2%]">
             Truly Multilingual AI Sales Agents
           </h1>
-          <span className="font-extrabold text-5xl w-[43%] tracking-wide text-center ">
+          <span className="font-extrabold text-5xl xl:w-[43%] tracking-wide text-center lg:w-[51%]">
             Interact With Your Visitors in Over 150+ Languages{" "}
           </span>
         
