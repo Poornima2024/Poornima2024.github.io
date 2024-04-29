@@ -1,5 +1,5 @@
 import React from "react";
-
+//footer created
 const Part5Footer = () => {
   return (
     <div className="mt-[7%] flex flex-col justify-center items-center bg-slate-100 ">
