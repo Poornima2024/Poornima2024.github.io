@@ -7,8 +7,8 @@ const Part5Footer = () => {
         <span className="lg:text-5xl sph:text-3xl sph:w-[50%] font-extrabold tracking-wide">
           What people are saying
         </span>
-        <div className="grid lg:grid-cols-3 lg:grid-rows-2 sph:grid-cols-1 sph:grid-rows-4 w-[100%] bg-slate-100 gap-[2%] pl-[2%] pr-[2%] mt-[3%] mb-[7%] gap-y-[8%]">
-          <div className="flex  border-1  rounded-xl shadow-2xl bg-white">
+        <div className="grid lg:grid-cols-3 lg:grid-rows-2 sph:grid-cols-1 sph:grid-rows-4 w-[100%] bg-slate-100 gap-[2%] pl-[2%] pr-[2%] mt-[3%] mb-[7%] lg:gap-y-[8%] ">
+          <div className="flex lg:flex-row sph:flex-col h-fit border-1  justify-center items-center  rounded-xl shadow-2xl bg-white">
             <div>
               <figcaption className=" flex flex-col justify-center items-center p-[12%]">
                 <img
@@ -28,7 +28,7 @@ const Part5Footer = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-2 flex  border-1  rounded-xl shadow-2xl bg-white">
+          <div className="lg:col-span-2 sph:col-span-0 flex lg:flex-row sph:flex-col h-fit justify-center items-center  border-1  rounded-xl shadow-2xl bg-white">
             <div className="w-[59%]">
               <figcaption className=" flex flex-col justify-center items-center p-[12%]">
                 <img
@@ -54,7 +54,7 @@ const Part5Footer = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-2 flex  border-1  rounded-xl shadow-2xl bg-white">
+          <div className="lg:col-span-2 sph:col-span-0 flex lg:flex-row sph:flex-col h-fit justify-center items-center border-1  rounded-xl shadow-2xl bg-white">
             <div>
               <figcaption className=" flex flex-col justify-center items-center p-[12%]">
                 <img
@@ -77,7 +77,7 @@ const Part5Footer = () => {
             </div>
           </div>
 
-          <div className="flex  border-1  rounded-xl shadow-2xl bg-white">
+          <div className="flex  border-1 lg:flex-row sph:flex-col h-fit justify-center items-center rounded-xl shadow-2xl bg-white">
             <div>
               <figcaption className=" flex flex-col justify-center items-center p-[12%]">
                 <img
@@ -96,19 +96,19 @@ const Part5Footer = () => {
           </div>
         </div>
 
-        <div className="bg-btncolor flex justify-center items-center w-[90%] border rounded-3xl">
+        <div className="bg-btncolor flex lg:flex-row sph:flex-col justify-center items-center w-[90%] border rounded-3xl">
           <div className="flex flex-col  gap-[15%] justify-center items-center pl-[2%]">
-            <span className="text-5xl font-extrabold text-white tracking-wide w-[71%] ml-[-9%] pb-[5%]">
+            <span className=" lg:text-5xl sph:text-3xl font-extrabold text-white tracking-wide w-[71%] ml-[-9%] pb-[5%] text-center">
               Let AI Sales Agents 3X Your Revenue
             </span>
-            <p className="text-white w-[80%] pb-[5%]">
+            <p className="text-white w-[80%] pb-[5%] text-center">
               Make more money while you sleep by seizing every opportunity with
               Orimon AI. Interact with your visitors 24/7 and guide them through
               the buying journey, turning traffic into real revenue.
             </p>
 
-            <div className="flex  border rounded-lg justify-center gap-[2%] bg-white w-[70%] ml-[-10%]">
-              <span className="bg-gradient-custom text-transparent bg-clip-text p-[2%]">
+            <div className="flex  lg:flex-row sph:flex-col border rounded-lg justify-center gap-[2%] bg-white lg:w-[70%] sph:w-[80%] ml-[-10%] sph:pb-[2%]">
+              <span className="bg-gradient-custom text-transparent bg-clip-text p-[2%] text-center">
                 Your AI sales agent just in 2 mins
               </span>
               <button className="bg-btncolor text-white p-[1%] rounded-lg">
@@ -126,12 +126,12 @@ const Part5Footer = () => {
         </div>
 
         <footer className="mt-[10%]">
-          <div className="flex w-[100%]  pl-[4%] pr-[3%]">
-            <div className="w-[30%] flex flex-col gap-[2%]">
-              <img src="	https://orimon.ai/img/logoFullLight.webp" className="w-[60%]"></img>
-              <span>© 2024 Orimon AI Inc. All rights reserved.</span>
+          <div className="flex lg:flex-row sph:flex-col w-[100%] items-center justify-center pl-[4%] pr-[3%] sph:gap-[2%]">
+            <div className="w-[30%] flex flex-col gap-[2%] ">
+              <img src="	https://orimon.ai/img/logoFullLight.webp" className="w-[100%]"></img>
+              <span className="sph:hidden lg:flex">© 2024 Orimon AI Inc. All rights reserved.</span>
             </div>
-            <div className="w-[60%] grid grid-cols-4 grid-rows-1">
+            <div className="w-[60%] grid lg:grid-cols-4 lg:grid-rows-1 sph:grid-cols-1 sph:grid-rows-4 sph:pt-4 lg:pt-0">
               <div className="flex flex-col items-center justify-center">
                 <span>Pricing</span>
                 <span>Featured Bots</span>
@@ -149,13 +149,15 @@ const Part5Footer = () => {
                 <span>Contact Us</span>
                 <span>Feature Request</span>
               </div>
-              <div className="flex items-center justify-center gap-[2%]">
+              <div className="flex lg:flex-row sph:flex-col items-center justify-center gap-[2%]">
                 <span>Ready to try? </span>
                 <button className=" bg-slate-100 text-btncolor border-btncolor border-2">
                   Get Started
                 </button>
               </div>
             </div>
+
+            <span className="lg:hidden sph:flex text-center">© 2024 Orimon AI Inc. All rights reserved.</span>
           </div>
         </footer>
       </div>
